@@ -1,0 +1,184 @@
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 90px;          
+    background-color: #5b5e5d; 
+}
+
+header img {
+    max-height: 60px;     
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f4f4f4;
+    color: #0c0c0c;
+    margin: 10;
+    border-left: 80px solid yellow;
+    border-right: 80px solid yellow;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: rgb(49, 163, 172);
+    text-align: left;
+    margin-left: 10px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+blockquote {
+    background-color: #f9f9f9;
+    border-top: solid #5a5656; 
+    border-bottom: solid #5a5656;
+    border-width: 2px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.video-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+
+
+
+nav ul {
+    list-style: none; 
+    padding: 0;       
+    margin: 0;        
+    display: flex;    
+    justify-content: center; 
+    background-color: #5b5e5d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff;          
+    font-size: 18px;       
+}
+
+nav ul li a.active {
+    color: orange; 
+}
+
+nav ul li a:hover {
+    color: orange;   
+}
+
+
+#menu {
+    margin-top: 15px;
+}
+
+
+#texthistoria {
+    font-weight: bold;
+}
+
+
+.image-container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+article {
+    margin-bottom: 50px; 
+}
+a {
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:last-child {
+    color: black;
+}
+
+footer {
+    background-color: #8b278d;
+    color: #333;
+    text-align: center;
+    padding: 20px; 
+}
+.titol-saga{
+    color: rgb(26, 160, 194);
+    list-style: url(img/icono-cine.png);
+}
+ol{
+    margin-top: none;
+    margin-left: 30px;
+    font-size: small;
+    
+}
+.character {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+ }
+ 
+ 
+ .character img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 10%;
+ }
+ 
+ 
+ .character a {
+    display: inline-block;
+    color: orange;
+    background-color: #5a5656;
+    text-align: right;
+ }
+ 
+ p {
+    text-align: justify;
+ }
+ 
+ .thumb {
+    float: right;
+    width: 540;
+    height: auto;
+    margin: 130px;
+    padding: 1px;
+ }
